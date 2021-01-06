@@ -1,0 +1,224 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*============================*/
+/*======= Header Menu =======*/
+/*===========================*/
+.header-menu{
+    position: sticky;
+    top: 0;
+}
+.header-menu ul{
+    list-style-type: none;
+    background: linear-gradient(180deg, blue, cyan);
+    text-align: right;
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+}
+.header-menu ul li:last-child{
+    padding-right: 50px;
+}
+
+/*============================*/
+/*======= About Section ======*/
+/*============================*/
+section{
+    height: 500px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.half-part{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.half-part img{
+    width: 100%;
+    height: 500px;
+}
+.more{
+    padding-top: 100px;
+}
+h1{
+    font-size: 60px;
+    color: #eb8d3b;
+}
+span{
+    color: blue;
+    font-style: italic;
+}
+p{
+    font-size: 19px;
+    color: grey;
+    margin: 10px 0 20px 0;
+}
+button{
+    text-decoration: none;
+    background: linear-gradient(180deg, blue, cyan);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+}
+/*============================*/
+/*======= Work Section ======*/
+/*============================*/
+h2{
+    font-size: 50px;
+    color: blue;
+}
+.work-section p{
+    padding: 15px 0;
+}
+.work-section{
+    padding-bottom: 100px;
+}
+
+/*============================*/
+/*===== Portfolio Section ====*/
+/*============================*/
+.portfolio-section{
+    width: 98%;
+    margin: auto;
+    padding: 100px 0;
+    background: rgb(243, 231, 231);
+    margin-bottom: 50px;
+}
+.portfolio-section h2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.part{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    box-shadow: 2px 2px 10px grey;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: .5s;
+    background: white;
+}
+.part:hover{
+    box-shadow: 8px 8px 40px grey;
+}
+.part img{
+    width: 95%;
+    padding-bottom: 10px;
+}
+.part h3{
+    font-size: 25px;
+}
+.color{
+    color: tomato;
+    font-style: italic;
+    font-size: 70px;
+    font-weight: 700;
+}
+/*============================*/
+/*===== Finish Section ====*/
+/*============================*/
+.finish-section{
+    background: url(images/shape/ooo.png) no-repeat top center;
+    height: 160px;
+    width: 900px;
+    margin: auto;
+    border-radius: 30px;
+}
+.finish-section h2{
+    color: white;
+}
+.finish-section .more{
+    padding-top: 80px;
+}
+.finish-section .more button{
+    float: right;
+}
+
+/*============================*/
+/*===== contact Section ====*/
+/*============================*/
+.contact-section{
+    text-align: center;
+    margin-top: 100px;
+    height: 200px;
+}
+.contact-section img{
+    width: 70px;
+    height: 70px;
+    padding: 0 10px;
+}
+.contact-section h2{
+    padding: 15px 0;
+}
+.contact-section h4{
+    font-size: 25px;
+    color: grey;
+}
+
+/*============================*/
+/*===== footer ====*/
+/*============================*/
+footer{
+    background: linear-gradient(180deg,rgb(98, 8, 243),rgb(39, 5, 131));
+    width: 1000px;
+    margin: auto;
+    font-size: 22px;
+    color: white;
+    padding: 50px 200px;
+    box-sizing: border-box;
+    border-radius: 30px;
+   
+}
+footer h2{
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+footer input{
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+footer textarea{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 7px;
+    box-sizing: border-box;
+
+}
+footer button{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+}
